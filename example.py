@@ -11,9 +11,15 @@ qr_generator_institutional = QRCodeGenerator(
     payment_title='FV 1234/34/2012'
 )
 
+# Create the QR code
 qr_generator_institutional.create_qr_code()
+
+# Display the QR code in Jupyter notebook
 qr_generator_institutional.display_qr_code()
+
+# Save QR code to PNG
 qr_generator_institutional.save_qr_code('qr_code_institutional.png')
+
 
 # Example usage for individual client
 qr_generator_individual = QRCodeGenerator(
@@ -26,6 +32,11 @@ qr_generator_individual = QRCodeGenerator(
     payment_title='FV 5678/78/2023'
 )
 
+# Create the QR code
 qr_generator_individual.create_qr_code()
+
+# Display the QR code in Jupyter notebook
 qr_generator_individual.display_qr_code()
-qr_generator_individual.save_qr_code('qr_code_individual.png')
+
+# Save QR code to PNG
+qr_generator_institutional.save_qr_code('qr_code_individual.png')
