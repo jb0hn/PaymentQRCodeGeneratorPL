@@ -40,6 +40,13 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Acknowledgements
+
+This project makes use of the following third-party libraries:
+
+- [Matplotlib](https://matplotlib.org/): A Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. I use Matplotlib for QR code displaying in this project.
+- [Segno](https://segno.readthedocs.io/): A Python library for generating QR Codes and Micro QR Codes. I use Segno to generate QR codes in this project.
+
 ## Trademark
 "QR Code" and "Micro QR Code" are registered trademarks of DENSO WAVE INCORPORATED.
 
