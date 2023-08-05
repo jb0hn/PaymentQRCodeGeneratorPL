@@ -29,7 +29,10 @@ qr_generator.display_qr_code() # displays the QR code in Jupyter notebook
 ```
 
 Here is an example of a QR code generated using this code:
-![Example QR Code](assets/assets/qr_code_institutional.png)
+
+<div align="left">
+  <img src="./assets/qr_code_institutional.png" alt="Example QR Code" width="200"/>
+</div>
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
