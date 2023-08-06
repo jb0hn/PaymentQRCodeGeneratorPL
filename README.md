@@ -2,7 +2,7 @@
 
 PaymentQRCodeGeneratorPL is a Python library for generating QR codes for payments, following the [Polish payment standards](https://zbp.pl/getmedia/1d7fef90-d193-4a2d-a1c3-ffdf1b0e0649/2013-12-03_-_Rekomendacja_-_Standard_2D). The library accommodates both institutional and individual payment receivers. The generated codes are compatible with major Polish banking apps like IKO by PKO BP, mBank, and Millennium.
 
-The default functionality of the library allows for manual entry of the amount by the client making the payment. If the `amount` field is set to 0.00, this will result in an amount of "000000" in the generated QR code, enabling the client to manually enter the amount.
+The default functionality of the library allows for manual edit of the amount by the client making the payment. If the `amount` field is set to 0.00, this will result in an amount of "000000" in the generated QR code, enabling the client to manually edit the amount.
 
 ## Usage
 
